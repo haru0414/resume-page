@@ -1,0 +1,57 @@
+.selectBtn {
+  position: fixed;
+  z-index: 50;
+  left: 110px;
+  bottom: 95px;
+  display: none;
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  color: #bd5d38;
+  text-transform: uppercase;
+  .goTo {
+    width: 0px;
+    background-color: #ffffff;
+    border-radius: 100px / 120px;
+    border: 0.3rem solid rgb(51 51 51);
+    text-decoration: none;
+    color: #000;
+    &:visited {
+      color: #000;
+    }
+  }
+}
+
+.listOpen {
+  position: fixed;
+  z-index: 50;
+  left: 50px;
+  bottom: 100px;
+  width: 50px;
+  border: 0.5rem solid rgb(51 51 51);
+  border-radius: 25px;
+}
+.listBtn:hover .selectBtn {
+  left: 115px;
+  bottom: 100px;
+  display: grid;
+  transition: margin-left 1.5s ease-in-out;
+  .goTo {
+    border-radius: 20px;
+    width: 150px;
+  }
+}
+@media (max-width: 1024px) {
+  .listOpen {
+    left: 35px;
+    top: 100px;
+    width: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  }
+  .listBtn:hover .selectBtn {
+    left: 35px;
+    top: 150px;
+    height: fit-content;
+  }
+}

@@ -1,0 +1,36 @@
+<!-- <span>畢業專題作品</span>
+<div class="portffolio-swiper">
+  <swiper [config]="swiperConfig">
+    <ng-container *ngFor="let item of portfolio; let i = index">
+      <ng-template swiperSlide>
+        <div class="swiper-container">
+          <div class="image">
+            <img
+              src="{{
+                '../../../../assets/img/portffolio/portffolio_' + i + '.jpg'
+              }}"
+            />
+          </div>
+          <div class="title">
+            <p>{{ item.title }}</p>
+          </div>
+        </div>
+      </ng-template>
+    </ng-container>
+  </swiper>
+
+  <div class="swiper-pagination"></div>
+</div> -->
+<span>畢業專題作品</span>
+<swiper-container pagination="true">
+  <ng-container *ngFor="let item of portfolio; let i = index">
+    <swiper-slide>
+      <div class="image">
+        <img src="{{ '../assets/img/portffolio/portffolio_' + i + '.jpg' }}" />
+      </div>
+      <div class="title">
+        <p>{{ item.title }}</p>
+      </div>
+    </swiper-slide>
+  </ng-container>
+</swiper-container>
