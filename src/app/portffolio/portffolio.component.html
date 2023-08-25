@@ -26,7 +26,11 @@
   <ng-container *ngFor="let item of portfolio; let i = index">
     <swiper-slide>
       <div class="image">
-        <img src="{{ '../assets/img/portffolio/portffolio_' + i + '.jpg' }}" />
+        <img
+          src="{{
+            '../resume-page/assets/img/portffolio/portffolio_' + i + '.jpg'
+          }}"
+        />
       </div>
       <div class="title">
         <p>{{ item.title }}</p>

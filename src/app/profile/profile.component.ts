@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./profile.component.scss'],
 })
 export class ProfileComponent implements OnInit {
-  mugShot = '../assets/img/mugShot.jpg';
+  mugShot = '../resume-page/assets/img/mugShot.jpg';
   constructor() {}
 
   ngOnInit(): void {}
