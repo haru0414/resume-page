@@ -8,15 +8,13 @@ describe('DynamicProfileComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ DynamicProfileComponent ]
-    })
-    .compileComponents();
+      declarations: [DynamicProfileComponent],
+    }).compileComponents();
 
     fixture = TestBed.createComponent(DynamicProfileComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
-
   it('should create', () => {
     expect(component).toBeTruthy();
   });
