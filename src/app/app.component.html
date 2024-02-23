@@ -1,11 +1,20 @@
-<div class="main">
+<div class="header">
   <div class="dynamic-profile">
     <app-dynamic-profile></app-dynamic-profile>
   </div>
+</div>
+<div class="main">
   <div class="detail">
     <app-detail></app-detail>
   </div>
-  <div class="listBtn">
-    <app-list-btn></app-list-btn>
+  <ng-container *ngIf="isMobileDevice()">
+    <div class="listBtn">
+      <app-list-btn></app-list-btn>
+    </div>
+  </ng-container>
+</div>
+<div class="footer">
+  <div class="connection" id="connection">
+    <app-connection></app-connection>
   </div>
 </div>

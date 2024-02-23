@@ -9,6 +9,8 @@ import { PortffolioComponent } from './portffolio/portffolio.component';
 import { ConnectionComponent } from './connection/connection.component';
 import { register } from 'swiper/element/bundle';
 import { DynamicProfileComponent } from './dynamic-profile/dynamic-profile.component';
+import { DetailBarComponent } from './detail-bar/detail-bar.component';
+import { HttpClientModule } from '@angular/common/http';
 // register Swiper custom elements
 register();
 @NgModule({
@@ -19,8 +21,9 @@ register();
     PortffolioComponent,
     ConnectionComponent,
     DynamicProfileComponent,
+    DetailBarComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, HttpClientModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

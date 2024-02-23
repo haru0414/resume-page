@@ -10,6 +10,29 @@
   justify-content: center;
   align-items: center;
 }
+.title {
+  padding-bottom: 10px;
+  .name,
+  .position {
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    color: #fff;
+    height: fit-content;
+    margin: auto;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    span {
+      letter-spacing: 0.05rem;
+      color: #000000;
+      font-size: 25px;
+      padding: 0 20px;
+    }
+  }
+}
+
 .box {
   position: relative;
   width: 400px;

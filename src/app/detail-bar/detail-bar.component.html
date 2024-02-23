@@ -1,0 +1,18 @@
+<div class="container">
+  <ul>
+    <ng-container *ngFor="let item of detail">
+      <li>
+        <a
+          href="javascript:void(0)"
+          [class.active]="item.active"
+          (click)="tabClick(item.name)"
+        >
+          {{ item.title }}</a
+        >
+      </li>
+    </ng-container>
+  </ul>
+</div>
+<ng-container *ngFor="let item of detail">
+  <span *ngIf="item.active"><p [innerHTML]="item.desc"></p> </span>
+</ng-container>

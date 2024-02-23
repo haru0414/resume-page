@@ -1,4 +1,6 @@
-.main {
+.header,
+.main,
+.footer {
   font-family: "Poppins", sans-serif;
   padding-left: 0;
   padding-right: 0;
@@ -6,7 +8,6 @@
   flex-direction: column;
   background-color: #2f4858;
 }
-
 .dynamic-profile {
   background-color: rgb(189, 93, 56);
   height: auto;
@@ -15,6 +16,7 @@
   border: 1.5rem solid rgb(51 51 51);
 }
 .detail {
+  padding-top: 25px;
   background-color: #fff;
   width: revert;
   margin: auto;
@@ -23,4 +25,9 @@
 }
 .swiper-wrapper {
   display: inline-flex;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }

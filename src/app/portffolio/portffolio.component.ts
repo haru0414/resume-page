@@ -16,16 +16,6 @@ export class PortffolioComponent implements OnInit {
     { title: '達成確認畫面' },
     { title: '部位皆已完成畫面' },
   ];
-  // swiperConfig: SwiperOptions = {
-  //   slidesPerView: 1,
-  //   slidesPerGroup: 1,
-  //   grabCursor: true,
-  //   pagination: {
-  //     el: '.portffolio-swiper .swiper-pagination',
-  //     clickable: true,
-  //   },
-  // };
-
   constructor() {}
 
   ngOnInit(): void {}
