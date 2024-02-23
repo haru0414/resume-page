@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Me",
+    "name": "abmDesc",
+    "active": true,
+    "desc": "我是哲瑋，2023年從大學畢業且於2024年1月服完兵役，對未來充滿熱誠及動力。 <br />大學的學習的專業包含通訊以及資工，自己的興趣為程式這一塊。<br />大四時選擇參與了校外實習，接觸到的部分為Angular架構的前端框架，運用所學將設計的網頁用程式刻畫的過程讓我有很大的成就感，雖然不免俗會遇到刻劃時的挫折感。<br />我相信在未來能夠更得心應手，並且著手學習其他領域的知識，不要將自己侷限在前端。<br />"
+  },
+  {
+    "title": "Graduate",
+    "name": "graduate",
+    "active": false,
+    "desc": "2023年畢業於國立高雄科技大學 <br /> -電腦與通訊工程系-"
+  },
+  {
+    "title": "Work",
+    "name": "work",
+    "active": false,
+    "desc": "2022/9 進入 GLSoft 實習 <br / >2023/7 開始兼職擔任前端工程師"
+  },
+  {
+    "title": "Skill",
+    "name": "skill",
+    "active": false,
+    "desc": "HTML、SCSS、JS <br/> 畢業專題使用SwiftUI"
+  },
+  {
+    "title": "Certificate",
+    "name": "certificate",
+    "active": false,
+    "desc": "電子類&nbsp;:&nbsp;乙級數位電子技術士、丙級工業電子技術士<br/> 職訓局&nbsp;:&nbsp;乙級電腦硬體裝修技術士、丙級電腦硬體裝修技術士"
+  },
+  {
+    "title": "Merit",
+    "name": "merit",
+    "active": false,
+    "desc": "2022年電腦與通訊工程系院專題競賽-資通訊組-特優<br/>2022年電腦與通訊工程系專題競賽-第二名"
+  }
+]
