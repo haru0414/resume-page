@@ -4,31 +4,31 @@
 <ng-container *ngIf="isMobileDevice(); else pcDevice">
   <div class="aboutMe">
     <span id="me">關於我</span>
-    <p [innerHTML]="detail[0].desc"></p>
+    <p [innerHTML]="detail[0].mdesc"></p>
   </div>
   <div id="graduate">
     <span>學歷</span>
-    <p [innerHTML]="detail[1].desc"></p>
+    <p [innerHTML]="detail[1].mdesc"></p>
   </div>
   <div id="work">
     <span>工作經歷</span>
-    <p [innerHTML]="detail[2].desc"></p>
+    <p [innerHTML]="detail[2].mdesc"></p>
   </div>
   <div id="skill">
     <span>技能與專長</span>
-    <p [innerHTML]="detail[3].desc"></p>
+    <p [innerHTML]="detail[3].mdesc"></p>
   </div>
   <div id="certificate">
     <span>證照</span>
-    <p [innerHTML]="detail[4].desc"></p>
+    <p [innerHTML]="detail[4].mdesc"></p>
   </div>
   <div id="merit">
     <span>獎狀</span>
-    <p [innerHTML]="detail[5].desc"></p>
+    <p [innerHTML]="detail[5].mdesc"></p>
   </div>
   <div id="autobiography">
     <span>自傳</span>
-    <p [innerHTML]="detail[6].desc"></p>
+    <p [innerHTML]="detail[6].mdesc"></p>
   </div>
 </ng-container>
 <div class="portffolio" id="portffolio">
