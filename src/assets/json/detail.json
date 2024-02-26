@@ -9,19 +9,19 @@
     "title": "Graduate",
     "name": "graduate",
     "active": false,
-    "desc": "2023年畢業於國立高雄科技大學 <br /> -電腦與通訊工程系-"
+    "desc": "⼤學(畢業)國立⾼雄科技⼤學<br />電腦與通訊⼯程系(通信學類)<br />在校時擔任過系學會美軒長 <br />⾼職成功⼯商 資訊科<br />在校成績科排一，以繁星進入高雄科技大學<br />在校期間多次擔任班長，且積極參與社團活動接待來賓"
   },
   {
     "title": "Work",
     "name": "work",
     "active": false,
-    "desc": "2022/9 進入 GLSoft 實習 <br / >2023/7 開始兼職擔任前端工程師"
+    "desc": "GLSoft 2022/9 ~ 2023/8 <br /> 前端⼯程師（實習-(共 1 年)） <br/>⼤四與學校合作的校外實習，實習結束後有留任到當兵前，⼯作內容為前端工程師，使用架構為Angular，實習時除了掌握這項前端框架外更加了解了業界使用git版本控制的運作模式。"
   },
   {
     "title": "Skill",
     "name": "skill",
     "active": false,
-    "desc": "HTML、SCSS、JS <br/> 畢業專題使用SwiftUI"
+    "desc": "JavaScript、HTML、SCSS<br/> 畢業專題使用SwiftUI編寫前端介面連接機器學習辨識功能"
   },
   {
     "title": "Certificate",
