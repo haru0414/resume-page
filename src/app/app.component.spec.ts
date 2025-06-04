@@ -30,4 +30,13 @@ describe('AppComponent', () => {
       'resume-page app is running!'
     );
   });
+
+  it('should activate the clicked tab', () => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.componentInstance;
+    app.tabList.forEach((t) => (t.active = false));
+    app.tabClick('work');
+    expect(app.tabList.find((t) => t.name === 'work')?.active).toBeTrue();
+    expect(app.tabList.filter((t) => t.name !== 'work').every((t) => !t.active)).toBeTrue();
+  });
 });

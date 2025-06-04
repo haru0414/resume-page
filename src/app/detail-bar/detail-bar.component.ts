@@ -18,7 +18,7 @@ export class DetailBarComponent implements OnInit {
   }
   ngOnInit(): void {}
   tabClick(name: string) {
-    this.detail.find((item: { active: boolean; name: string }) => {
+    this.detail.forEach((item: { active: boolean; name: string }) => {
       item.active = name === item.name;
     });
   }
