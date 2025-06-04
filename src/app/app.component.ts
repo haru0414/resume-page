@@ -70,7 +70,7 @@ export class AppComponent {
     return isMobileDevice;
   }
   tabClick(name: string) {
-    this.tabList.find((item) => {
+    this.tabList.forEach((item) => {
       item.active = name === item.name;
     });
   }

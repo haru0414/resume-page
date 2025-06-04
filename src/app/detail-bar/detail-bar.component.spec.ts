@@ -19,4 +19,14 @@ describe('DetailBarComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should activate the clicked tab', () => {
+    component.detail = [
+      { name: 'a', active: false },
+      { name: 'b', active: false },
+    ];
+    component.tabClick('b');
+    expect(component.detail.find((d) => d.name === 'b')?.active).toBeTrue();
+    expect(component.detail.find((d) => d.name === 'a')?.active).toBeFalse();
+  });
 });
